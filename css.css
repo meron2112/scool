@@ -1,0 +1,117 @@
+body{
+	font-family: "arial";
+	background-image:url("c3.jpg");
+	background-size: cover; 
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+
+}
+nav{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 10px;
+	height: 60px;
+	width: 100%;
+	padding-left: 10px;
+
+
+}
+.logo{
+	font-size: 40px;
+	margin-left: 55px;
+	color: rgb(232,148,14); 
+}
+ul{
+	position: absolute;
+	list-style: none;
+	display: flex;
+	gap:25px;
+	font-weight: 300;
+	margin-left: 600px;
+	font-size:  18px;
+	color:rgb(7,7,7);
+	cursor: pointer;
+
+}
+a{
+	color: rgb(7,7,7);
+	text-decoration: none;
+}
+a:hover{
+	font-size: 20px;
+	color:rgb(255,124,18);
+	text-decoration: underline;
+
+}
+.but1{
+	padding-left: 50px;
+	padding-right: 50px;
+	border: 2px white;
+	margin-left: 1200px;
+	border-radius: 100px;
+	background-color: rgb(255,124,18);  
+	color:white;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 1s;  
+}
+.content{
+	align-items: center;
+	border:1px solid black;
+	margin-top: 180px;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.4);  
+	border-radius: 18px;
+}
+h2{
+	padding-left: 18px;
+	padding-right: 18px;
+	background-color: rgb(0,0,0,0.05);
+	color: white;
+	font-size: 60px;
+	font-family: lucida sans;
+
+}
+p{
+	align-items: center;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 50px; 
+}
+.but2{
+	padding: 28px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border:2px solid white;
+	margin-left: 120px;
+	border-radius: 100px;
+	background-color: rgb(255,124,18);
+	color: white;
+	font-size: 20px;
+	font-weight:bold;
+	cursor: pointer;
+	transition: 1s;
+}
+.but3{
+    padding: 28px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border:2px solid white;
+	margin-left: 70px;
+	border-radius: 100px;
+	background-color: rgb(255,124,18);
+	color: white;
+	font-size: 20px;
+	font-weight:bold;
+	cursor: pointer;
+	transition: 1s;
+}
+.but2:hover,.but3:hover,.but1:hover{
+	background-color: rgb(0,0,0,0.1);
+	border:2px solid rgb(208,148,148)
+}
